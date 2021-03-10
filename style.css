@@ -8,6 +8,7 @@
 
 h1 {
   margin-top: 5%;
+  font-size: 40px;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   min-height: 100vh;
   color: azure;
   font-family: "Montserrat", sans-serif;
+
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -40,6 +42,10 @@ body {
 
 .container.shrink {
   animation: shrink 3s forwards linear;
+}
+
+#text {
+  font-size: 30px;
 }
 
 .gradient-circle {
@@ -107,13 +113,13 @@ body {
   }
 
   to {
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
 }
 
 @keyframes shrink {
   from {
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
 
   to {
